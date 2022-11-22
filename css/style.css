@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h1{
+    padding: 30px 0;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 5px 10px 10px #000;
+}
+.container .desctop{
+    width: 1100px;
+    height: 415px;
+    border: 2px solid #000;
+}
+.cub{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+}
+.container .desctop .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12, .g13, .g14, .g15, .g16, .g17, .g18{
+    height: 10px;
+    background: #000;
+    display: block;
+}
+.g1{
+    width: 100px;
+    transform: translate(0, 50px);
+}
+.g2{
+    width: 550px;
+    transform: translate(150px, 40px);
+}
+.g3{
+    width: 295px;
+    transform: translate(750px, 30px);
+}
+.g4{
+    width: 400px;
+    transform: translate(50px, 80px);
+}
+.g5{
+    width: 300px;
+    transform: translate(500px, 70px);
+}
+.g6{
+    width: 248px;
+    transform: translate(850px, 60px);
+}
+.g7{
+    width: 300px;
+    transform: translate(0, 110px);
+}
+.g8{
+    width: 200px;
+    transform: translate(350px, 100px);
+}
+.g9{
+    width: 445px;
+    transform: translate(600px, 90px);
+}
+.g10{
+    width: 447px;
+    transform: translate(650px, 140px);
+}
+.g11{
+    width: 445px;
+    transform: translate(155px, 130px);
+}
+.g12{
+    width: 105px;
+    transform: translate(0, 120px);
+}
+.g13{
+    width: 445px;
+    transform: translate(0, 170px);
+}
+.g14{
+    width: 445px;
+    transform: translate(495px, 160px);
+}
+.g15{
+    width: 320px;
+    transform: translate(50px, 210px);
+}
+.g16{
+    width: 150px;
+    transform: translate(420px, 200px);
+}
+.g17{
+    width: 478px;
+    transform: translate(620px, 190px);
+}
+.g18{
+    width: 108px;
+    transform: translate(990px, 120px);
+}
+.v1,.v2,.v3,.v4,.v5,.v6,.v7,.v8,.v9{
+    width: 10px;
+    height: 50px;
+    display: block;
+    background: #000;
+    transform: translate(400px, -180px);
+}
+.v2{
+    transform: translate(200px, -170px);
+}
+.v3{
+    transform: translate(790px, -220px);
+}
+.v4{
+    transform: translate(500px, -210px);
+}
+.v5{
+    transform: translate(750px, -140px);
+}
+.v6{
+    transform: translate(660px, -250px);
+}
+.v7{
+    transform: translate(495px, -180px);
+}
+.v8{
+    transform: translate(400px, -350px);
+}
+.v9{
+    transform: translate(300px, -340px);
+}
